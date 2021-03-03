@@ -1,5 +1,5 @@
-﻿Const desiredScore = 9.5  ‘ just  nice to have this at the top
-
+﻿'Const desiredScore = 9.3  ‘ just  nice to have this at the top
+Const desiredScore = 9.3
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("HeadphonesCategoryTxt").Click
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Beats Studio 2 Over-Ear").Click
 'Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Score").WaitProperty "innerhtml", 9.3, 10000

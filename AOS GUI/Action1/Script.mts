@@ -1,6 +1,6 @@
 ﻿'SystemUtil.CloseProcessByName "iexplore.exe"
 SystemUtil.CloseProcessByName "iexplore.exe"
-SystemUtil.Run "iexplore.exe", "https://advantageonlineshopping.com"
+SystemUtil.Run "iexplore.exe", "http://advantageonlineshopping.com"
 For sendFeedback = 1 To 4 Step 1
 		
 	'Browser("Advantage Shopping").Page("Advantage Shopping").Link("helpLink").Click

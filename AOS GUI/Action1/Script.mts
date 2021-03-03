@@ -13,8 +13,7 @@ For sendFeedback = 1 To 4 Step 1
 	Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("subjectTextareaContactUs").Set "UFT is Create"
 	Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("send_btnundefined").Click
 	Browser("Advantage Shopping").Page("Advantage Shopping").Link("CONTINUE SHOPPING").Check CheckPoint("CONTINUE SHOPPING")	
-'Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("CONTINUE SHOPPING").Click
-	
+'Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("CONTINUE SHOPPING").Click	
 next
 'SystemUtil.CloseProcessByName "iexplore.exe"
 SystemUtil.CloseProcessByName "iexplore.exe"
